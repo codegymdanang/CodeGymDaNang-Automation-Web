@@ -7,6 +7,7 @@ Feature: Home Page
   I want buyers to be able to see for the home page
 
   Scenario: Home Page
-    Given I want to buy a wool scarf
-    When I go to home page
-    Then I should see the wool scarf
+    Given I am on the web page
+    When I enter my email
+    And I click get username button
+    Then I should see the username
