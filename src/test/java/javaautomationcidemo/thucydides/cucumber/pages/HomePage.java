@@ -5,7 +5,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 
-@DefaultUrl("http://localhost:8080/demo/")
+@DefaultUrl("http://128.199.118.34:8080/java-demo-ci-web/")
 public class HomePage extends PageObject {
 
 	@FindBy(id = "email")
