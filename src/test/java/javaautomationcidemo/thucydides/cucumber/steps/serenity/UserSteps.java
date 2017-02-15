@@ -34,4 +34,39 @@ public class UserSteps extends ScenarioSteps{
 		System.out.println("TEST ####" + homePage.getResult());
 		assertThat(homePage.getResult()).containsIgnoringCase("Nguyen");
 	}
+
+	public void enterPhoneNumber() {
+		homePage.enterPhoneNumber();
+		
+	}
+
+	public void enterFullName() {
+		homePage.enterFullName();
+		
+	}
+
+	public void enterUserName() {
+		homePage.enterUserName();
+		
+	}
+
+	public void enterPassword() {
+		homePage.enterPassword();
+		
+	}
+
+	public void enterReEnterPassword() {
+		homePage.enterReEnterPassword();
+		
+	}
+
+	public void clickAgreeButton() {
+		homePage.clickAgreeButton();
+		
+	}
+
+	public void clickRegistration() {
+		homePage.clickRegistration();
+		
+	}
 }

@@ -2,12 +2,18 @@
 @version:Release-2
 @issue:ETSY-102
 Feature: Home Page
-  In order for customer to find what they are looking for more efficiently
+  In order for customer to buy a car
   As a seller
-  I want buyers to be able to see for the home page
+  I want buyers to register a form
 
   Scenario: Home Page
-    Given I am on the web page
-    When I enter my email
-    And I click get username button
-    Then I should see the username
+    Given I am on the registration 
+    When I enter my phone number
+    And I enter my fullname
+    And I enter my email
+    And I enter my username
+    And I enter password
+    And I enter repassword
+    And I click Agree Button
+    And I click Registration 
+    Then I should see the welcome
