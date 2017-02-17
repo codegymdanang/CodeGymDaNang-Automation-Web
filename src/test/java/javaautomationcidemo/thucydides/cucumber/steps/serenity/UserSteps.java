@@ -69,4 +69,9 @@ public class UserSteps extends ScenarioSteps{
 		homePage.clickRegistration();
 		
 	}
+
+	public void doNotEnterPhone() {
+		homePage.doNotEnterPhone();
+		
+	}
 }

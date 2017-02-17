@@ -86,4 +86,9 @@ public class HomePage extends PageObject {
 		
 		register.click();
 	}
+
+	public void doNotEnterPhone() {
+		phoneNumber.typeAndEnter("");
+		
+	}
 }
