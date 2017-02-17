@@ -91,4 +91,34 @@ public class HomePage extends PageObject {
 		phoneNumber.typeAndEnter("");
 		
 	}
+
+	public void enterPhoneNumber(String phoneNumber2) {
+		phoneNumber.typeAndEnter(phoneNumber2);
+		
+	}
+
+	public void enterFullName(String fullname2) {
+		fullName.typeAndEnter(fullname2);
+		
+	}
+
+	public void enterEmail(String email) {
+		emailText.type(email);
+		
+	}
+
+	public void enterUserName(String username2) {
+		userName.type(username2);
+		
+	}
+
+	public void enterPassword(String password2) {
+		password.type(password2);
+		
+	}
+
+	public void enterReEnterPassword(String repassword2) {
+		rePassword.type(repassword2);
+		
+	}
 }

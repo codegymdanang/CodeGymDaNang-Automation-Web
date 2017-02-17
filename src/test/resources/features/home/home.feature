@@ -32,3 +32,4 @@ Feature: Register Course Online
 	    And I click Agree Button
 	    And I click Registration 
 	    Then I should see the error message
+	

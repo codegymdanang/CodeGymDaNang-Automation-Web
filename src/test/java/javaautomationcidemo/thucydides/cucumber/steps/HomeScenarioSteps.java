@@ -69,6 +69,7 @@ public class HomeScenarioSteps {
 	
 	
 	
+	
 	@Then("^I should see the username$")
 	public void shoudSeeTheUserName() {
 		userStep.shoudSeeTheUserName();
