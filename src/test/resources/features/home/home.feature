@@ -19,7 +19,7 @@ Feature: Register Course Online
 	    And I enter repassword
 	    And I click Agree Button
 	    And I click Registration 
-	    Then I should see the welcome
+	    Then I should see pay button
 	    
 	Scenario: Register a course with empty phone number
 		Given I am on the registration 
@@ -31,5 +31,4 @@ Feature: Register Course Online
 	    And I enter repassword
 	    And I click Agree Button
 	    And I click Registration 
-	    Then I should see the error message
-	
+	    Then I should see register button

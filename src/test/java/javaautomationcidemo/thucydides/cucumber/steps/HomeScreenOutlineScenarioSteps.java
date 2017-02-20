@@ -4,7 +4,6 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import javaautomationcidemo.thucydides.cucumber.steps.serenity.HomeOutlineSteps;
-import javaautomationcidemo.thucydides.cucumber.steps.serenity.UserSteps;
 import net.thucydides.core.annotations.Steps;
 
 public class HomeScreenOutlineScenarioSteps {

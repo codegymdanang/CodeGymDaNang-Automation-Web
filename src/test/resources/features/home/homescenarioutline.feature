@@ -16,7 +16,7 @@ Feature: Register Course Out Line
 	    And I enter repassword as "<repassword>"
 	    And I click Agree Button
 	    And I click Registration 
-	    Then I should see the welcome
+	    Then I should see pay button
 	    
 	Examples:
 	| phonenumber 	| fullname 		|      email  			| username	| password	|repassword	|

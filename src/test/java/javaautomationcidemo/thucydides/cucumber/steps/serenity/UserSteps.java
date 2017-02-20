@@ -24,16 +24,7 @@ public class UserSteps extends ScenarioSteps{
 		homePage.enterEmail();
 	}
 	
-	@Step
-	public void clickGetUserNameButton() {
-		homePage.clickGetUserNameButton();
-	}
 	
-	@Step
-	public void shoudSeeTheUserName() {
-		System.out.println("TEST ####" + homePage.getResult());
-		assertThat(homePage.getResult()).containsIgnoringCase("Nguyen");
-	}
 
 	public void enterPhoneNumber() {
 		homePage.enterPhoneNumber();
@@ -72,6 +63,15 @@ public class UserSteps extends ScenarioSteps{
 
 	public void doNotEnterPhone() {
 		homePage.doNotEnterPhone();
+		
+	}
+
+	public void thenIShouldSeePayButton() {
+		assertThat(homePage.getPayButton()).containsIgnoringCase("Pay");	
+	}
+
+	public void thenIShouldSeeRegisterButton() {
+		assertThat(homePage.getRegisterButton()).containsIgnoringCase("Register");	
 		
 	}
 }

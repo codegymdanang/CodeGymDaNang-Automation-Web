@@ -57,21 +57,22 @@ public class HomeScenarioSteps {
 	public void clickRegistration() {
 		userStep.clickRegistration();
 	}
-	@When("^I click get username button$")
-	public void clickGetUserNameButton() {
-		userStep.clickGetUserNameButton();
-	}
+	
 	
 	@When("^I am not enter phone number$")
 	public void doNotEnterPhone() {
 		userStep.doNotEnterPhone();
 	}
 	
-	
-	
-	
-	@Then("^I should see the username$")
-	public void shoudSeeTheUserName() {
-		userStep.shoudSeeTheUserName();
+	@Then("^I should see pay button$")
+	public void thenIShouldSeePayButton(){
+		userStep.thenIShouldSeePayButton();
 	}
+	
+	@Then("^I should see register button$")
+	public void thenIShouldSeeRegisterButton(){
+		userStep.thenIShouldSeeRegisterButton();
+	}
+	 
+	
 }
