@@ -14,6 +14,7 @@ Explaination of projects
 * All Scenario files are located java-serenity-cucumber/src/test/java/javaautomationcidemo/thucydides/cucumber/
 * To manipulate the website (catch web elements , click button ) are located https://github.com/levunguyen/java-serenity-cucumber/blob/master/src/test/java/javaautomationcidemo/thucydides/cucumber/pages/
 * All test report summary is located target folder
+
 ### Steps
 * Step 1
 clone the source code to your machine
