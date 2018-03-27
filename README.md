@@ -1,6 +1,8 @@
 BDD with serenity + cucumber 
 ====================
-Requirement
+Requiremen
+Firefox 
+https://ftp.mozilla.org/pub/firefox/releases/44.0.2
 --------------------
 * Tester shoulds have knowledge of gerkins and serenity 
 * We need to install java
